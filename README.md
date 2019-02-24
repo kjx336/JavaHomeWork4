@@ -16,8 +16,8 @@
 领悟：
 ------
 ####这次命名、导入包的时候拼错了
-其余的很轻松
-##推至github时出现新问题
+其余的很轻松<br>
+####推至github时出现新问题
 ```
 fatal:'origin' does not appear to be a git repository 
 fatal:Could not read from remote repository
