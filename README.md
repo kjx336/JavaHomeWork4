@@ -15,6 +15,21 @@
 
 领悟：
 ------
-##这次命名、导入包的时候拼错了
+####这次命名、导入包的时候拼错了
 其余的很轻松
-
+##推至github时出现新问题
+```
+fatal:'origin' does not appear to be a git repository 
+fatal:Could not read from remote repository
+```
+这个就是本地分支与远程分支断开了，输入
+```
+git remote –v
+```
+若啥反应都没有，就是这个问题了。<br>
+使用
+```
+git remote add origin https://github.com*****************.git
+```
+加关联即可，随后再remote看一下是否成功<br>
+之后的就搞定了，[具体可以参考这里](https://blog.csdn.net/huanhuaqian/article/details/81986064)
